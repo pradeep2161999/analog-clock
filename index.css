@@ -1,0 +1,127 @@
+.dot {
+  height: 500px;
+  width: 500px;
+  background-color: rgb(42, 48, 42);
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  text-decoration: dashed;
+  margin-left: 430px;
+}
+.dot1 {
+  height: 380px;
+  width: 380px;
+  background-color: rgb(52, 58, 52);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 491px;
+  margin-top: -448px;
+  position: absolute;
+}
+.dot2 {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(253, 253, 253);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 679.9px;
+  margin-top: -250px;
+  position: absolute;
+  display: flex;
+}
+* {
+  background-color: rgb(252, 251, 249);
+}
+.vl {
+  border-left: 10px solid rgb(228, 20, 20);
+  height: 500px;
+  margin-left: 248px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.vl1 {
+  border-left: 4px solid rgb(0, 0, 0);
+  height: 500px;
+  margin-left: 248px;
+  opacity: 0.5;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  transform: rotate(30deg);
+}
+.vl2 {
+  border-left: 4px solid rgb(0, 0, 0);
+  height: 500px;
+  margin-left: 248px;
+  opacity: 0.5;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  transform: rotate(60deg);
+}
+.vl3 {
+  border-left: 10px solid rgb(228, 20, 20);
+  height: 500px;
+  margin-left: 245px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  transform: rotate(90deg);
+}
+.vl4 {
+  border-left: 4px solid rgb(0, 0, 0);
+  height: 500px;
+  margin-left: 248px;
+  opacity: 0.5;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  transform: rotate(120deg);
+}
+.vl5 {
+  border-left: 4px solid rgb(0, 0, 0);
+  height: 500px;
+  margin-left: 248px;
+  opacity: 0.5;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  transform: rotate(150deg);
+}
+
+.hour {
+  width: 10px;
+  height: 90px;
+  top: 35.9%;
+  left: 50.6%;
+  opacity: 1;
+  position: absolute;
+  background: rgb(219, 8, 8);
+  border-radius: 100px;
+  transform-origin: bottom;
+}
+
+.minute {
+  width: 10px;
+  height: 140px;
+  top: 29.1%;
+  left: 50.7%;
+  opacity: 1;
+  position: absolute;
+  background: rgb(219, 8, 8);
+  border-radius: 100px;
+  transform-origin: bottom;
+}
+
+.second {
+  width: 5px;
+  height: 180px;
+  top: 22.7%;
+  left: 50.9%;
+  opacity: 1;
+  position: absolute;
+  background: rgb(255, 254, 254);
+  border-radius: 100px;
+  transform-origin: bottom;
+}
